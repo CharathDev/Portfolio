@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./styles/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Charath's Portfolio</title>
+  </head>
+  <body class="bg-black font-poppins">
+    <nav
+      class="flex flex-wrap items-center justify-between w-full py-7 md:py-4 px-6 text-lg fixed top-0 transition ease-in duration-400 z-50"
+      id="navbar"
+    >
+      <a href="" class="text-lightblue">Charath Velan</a>
+
+      <div class="cursor-pointer md:hidden block">
+        <i class="fa-solid fa-bars h-6 w-6 text-lightblue" id="menu-button"></i>
+      </div>
+      <div
+        class="hidden w-full md:flex md:items-center md:w-auto text-white"
+        id="menu"
+      >
+        <a
+          class="md:p-3 py-2 block hover:text-lightblue font-extralight transition ease-in duration-100"
+          href="#home"
+          id="nav-link"
+          >Home</a
+        >
+
+        <a
+          class="md:p-3 py-2 block hover:text-lightblue font-extralight transition ease-in duration-100"
+          href="#about"
+          id="nav-link"
+          >About</a
+        >
+
+        <a
+          class="md:p-3 py-2 block hover:text-lightblue font-extralight transition ease-in duration-100"
+          href="#achievements"
+          id="nav-link"
+          >Achievements</a
+        >
+
+        <a
+          class="md:p-3 py-2 block hover:text-lightblue font-extralight transition ease-in duration-100"
+          href="#projects"
+          id="nav-link"
+          >Projects</a
+        >
+
+        <a
+          class="md:p-3 py-2 block hover:text-lightblue font-extralight transition ease-in duration-100"
+          href="#skills"
+          id="nav-link"
+          >Skills</a
+        >
+
+        <a
+          class="md:p-3 py-2 block hover:text-lightblue font-extralight transition ease-in duration-100"
+          href="#hobbies"
+          id="nav-link"
+          >Hobbies</a
+        >
+      </div>
+    </nav>
+
+    <header id="home" class="h-[100vh] bg-black">
+      <div
+        class="flex justify-center md:items-center items-start size-full relative overflow-hidden"
+      >
+        <div
+          class="absolute bottom-0 left-0 size-full justify-center items-end flex"
+        >
+          <img
+            src="./images/Untitled design (1).png"
+            alt=""
+            class="md:h-[140%] h-[100%] grayscale transition-all duration-500 md:min-w-[1000px] min-w-[685px]"
+          />
+        </div>
+        <div
+          class="flex justify-start items-center flex-col md:mt-0 mt-[150px] w-full h-[50%]"
+        >
+          <h1
+            class="md:text-[900%] text-[600%] text-lightblue stroke-2 font-bold text-center transition-all duration-500"
+          >
+            CHARATH VELAN
+          </h1>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="bg-darkgrey p-12">
+        <div class="flex justify-center items-center flex-col">
+          <h1 class="text-white md:text-6xl text-4xl p-10">
+            About <span class="text-lightblue">Me</span>
+          </h1>
+          <div class="grid md:grid-cols-2 grid-cols-1 p-6 gap-12">
+            <div
+              class="flex justify-center md:items-center items-center flex-col"
+            >
+              <div class="flex justify-center items-center">
+                <div
+                  class="rounded-lg bg-darkblue lg:size-128 md:size-96 size-64 md:-rotate-90 overflow-hidden flex justify-center items-end shadow-2xl"
+                >
+                  <img
+                    src="./images/Untitled design (1).png "
+                    alt=""
+                    class="object-cover object-bottom grayscale size-[150%]"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-center items-center">
+              <div class="grid grid-cols-1 gap-6 w-full">
+                <div class="border border-grey p-4 w-full">
+                  <div class="flex justify-center items-end flex-col">
+                    <h2 class="text-darkblue w-full text-left text-4xl">16</h2>
+                    <p class="text-grey pl-12">
+                      I'm 16 this year. My name is Charath Velan and I'm born in
+                      Penang. I currently live in Seremban.
+                    </p>
+                  </div>
+                </div>
+                <div class="border border-grey p-4 w-full">
+                  <div class="flex justify-center items-end flex-col">
+                    <h2 class="text-darkblue w-full text-left text-4xl">8+</h2>
+                    <p class="text-grey pl-12">
+                      Years in programming, and learning about programming. I
+                      have learnt about a lot of languages such as Python, C++,
+                      C#, and Dart and have made a lot of projects using these
+                      languages
+                    </p>
+                  </div>
+                </div>
+                <div class="border border-grey p-4 w-full">
+                  <div class="flex justify-center items-end flex-col">
+                    <h2 class="text-darkblue w-full text-left text-4xl">10+</h2>
+                    <p class="text-grey pl-12">
+                      Personal projects made. I have made projects using IoT
+                      such as a automated medicine dispenser which is connected
+                      to and app and also a green house monitoring system and a
+                      fish tank monitoring system.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="achievements" class="bg-darkgrey p-12">
+        <div class="flex justify-center items-center flex-col">
+          <h1 class="text-lightblue md:text-6xl text-4xl p-10">Achievements</h1>
+          <div class="flex justify-center items-center">
+            <div class="gap-6 flex flex-wrap justify-center">
+              <div
+                class="max-w-sm rounded overflow-hidden shadow-lg bg-darkblue"
+              >
+                <img
+                  class="w-full h-[300px] object-cover"
+                  src="./images/achivement-1.jpg"
+                  alt="MTE Gold"
+                />
+                <div class="px-6 py-4">
+                  <a
+                    class="font-bold text-xl text-white"
+                    href="https://www.instagram.com/p/C4fN106LNJ5/?img_index=3"
+                  >
+                    Malaysia Technology Expo - Gold
+                  </a>
+                  <p class="text-gray-700 text-base text-white mt-2">
+                    Me and my 4 other team members won gold in this technlogy
+                    expo with our project titled "Buzzy Sensor" which is a fish
+                    tank management system connected to an app which can
+                    automatically alert the user and regulate the PH and
+                    temperature of the fish tank.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="max-w-sm rounded overflow-hidden shadow-lg bg-darkblue"
+              >
+                <img
+                  class="w-full h-[300px] object-cover"
+                  src="./images/achievement-2.png"
+                  alt="MTE Gold"
+                />
+                <div class="px-6 py-4">
+                  <a
+                    class="font-bold text-xl text-white"
+                    href="https://www.instagram.com/p/CySOJlCRLH2/?img_index=2"
+                  >
+                    Young Innovators Challenge - Bronze
+                  </a>
+                  <p class="text-gray-700 text-base text-white mt-2">
+                    Me and my 2 other team members won bronze in this
+                    competition with our project titled "Medigen" which is a
+                    automated medicine dispenser made for people with dementia
+                    and people who tend to forget the time to take their
+                    medication which is connected to and app which allows the
+                    user to set the timing and track the medication.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="max-w-sm rounded overflow-hidden shadow-lg bg-darkblue"
+              >
+                <img
+                  class="w-full h-[300px] object-cover"
+                  src="./images/achievement-3.jpg"
+                  alt="MTE Gold"
+                />
+                <div class="px-6 py-4">
+                  <a
+                    class="font-bold text-xl text-white"
+                    href="https://www.instagram.com/p/Cxb2zIihBw_/"
+                  >
+                    National Robotic Competition - Silver
+                  </a>
+                  <p class="text-gray-700 text-base text-white mt-2">
+                    Me and my 2 other team members won silver in this
+                    competition where we had to make a automated "ping pong"
+                    playing robot which cant be controlled by us and had to play
+                    by itself. Our team managed to qualify for the nationals but
+                    sadly we only gotten top-16.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="bg-darkgrey p-12">
+        <div class="flex justify-center items-center flex-col">
+          <h1 class="text-lightblue md:text-6xl text-4xl p-10">Projects</h1>
+          <div class="flex justify-center items-center w-full">
+            <div class="grid md:grid-cols-2 grid-cols-1 w-full gap-6">
+              <div
+                class="flex justify-center items-center relative w-full max-h-96 overflow-hidden rounded-lg group"
+              >
+                <img
+                  src="images/image.png"
+                  alt=""
+                  class="size-full group-hover:scale-110 transition-all duration-100 object-cover"
+                />
+                <div
+                  class="flex justify-center items-center size-full flex-col bg-darkgrey/40 group-hover:bg-darkblue/80 absolute transition-all duration-100"
+                >
+                  <h2
+                    class="group-hover:text-white text-lightblue text-4xl transition-all duration-100 text-center p-5 group-hover:-translate-y-1"
+                  >
+                    Green House Monitoring App
+                  </h2>
+                  <p
+                    class="group-hover:block hidden text-white transition duration-100 text-center group-hover:-translate-y-1 w-[90%]"
+                  >
+                    This is an app which can help green house owners to track
+                    the temperature and humidity of the green house and this app
+                    will alert the user if its too high or too low depending on
+                    what kind of plants are in the greenhouse which can be set
+                    by the user themself.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="flex justify-center items-center relative w-full max-h-96 overflow-hidden rounded-lg group"
+              >
+                <img
+                  src="images/photo_2024-04-01_19-22-21.jpg"
+                  alt=""
+                  class="size-full group-hover:scale-110 transition-all duration-100 object-cover"
+                />
+                <div
+                  class="flex justify-center items-center size-full flex-col bg-darkgrey/40 group-hover:bg-darkblue/80 absolute transition-all duration-100"
+                >
+                  <h2
+                    class="group-hover:text-white text-lightblue text-4xl transition-all duration-100 text-center p-5 group-hover:-translate-y-1"
+                  >
+                    Fish Tank Monitoring System
+                  </h2>
+                  <p
+                    class="group-hover:block hidden text-white transition duration-100 text-center group-hover:-translate-y-1 w-[90%]"
+                  >
+                    This is a project which combines both an app and a ESP32
+                    which allows it to track, regulate and alert the user if
+                    there is any changes in the fish tank which are not suitable
+                    for the fish in the fish tank which can be preset by the
+                    user from our library.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="flex justify-center items-center relative w-full max-h-96 overflow-hidden rounded-lg group"
+              >
+                <img
+                  src="images/photo_2024-04-01_20-08-40.jpg"
+                  alt=""
+                  class="size-full group-hover:scale-110 transition-all duration-100 object-cover"
+                />
+                <div
+                  class="flex justify-center items-center size-full flex-col bg-darkgrey/40 group-hover:bg-darkblue/80 absolute transition-all duration-100"
+                >
+                  <h2
+                    class="group-hover:text-white text-lightblue text-4xl transition-all duration-100 text-center p-5 group-hover:-translate-y-1"
+                  >
+                    Automated Medication Dispenser
+                  </h2>
+                  <p
+                    class="group-hover:block hidden text-white transition duration-100 text-center group-hover:-translate-y-1 w-[90%]"
+                  >
+                    This is a system which uses an app which is connected to an
+                    ESP32 which handles all the electronics for this project.
+                    The user can set who and what time that the person has to
+                    take their medication and this system alerts the user when
+                    it is time to take the medciation.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="flex justify-center items-center relative w-full max-h-96 overflow-hidden rounded-lg group"
+              >
+                <img
+                  src="images/robotic.jpg"
+                  alt=""
+                  class="size-full group-hover:scale-110 transition-all duration-100 object-cover"
+                />
+                <div
+                  class="flex justify-center items-center size-full flex-col bg-darkgrey/40 group-hover:bg-darkblue/80 absolute transition-all duration-100"
+                >
+                  <h2
+                    class="group-hover:text-white text-lightblue text-4xl transition-all duration-100 text-center p-5 group-hover:-translate-y-1"
+                  >
+                    Automated Ping Pong Robot
+                  </h2>
+                  <p
+                    class="group-hover:block hidden text-white transition duration-100 text-center group-hover:-translate-y-1 w-[90%]"
+                  >
+                    This robot was built and programmed for a competition where
+                    we need to have 2 robots play "ping pong" with 2 other
+                    robots where the rules are a bit different where each robot
+                    has to find balls in their side and throw it to the other
+                    side
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="bg-darkgrey p-12">
+        <div class="flex justify-center items-center flex-col">
+          <h1 class="text-lightblue md:text-6xl text-4xl p-10">Skills</h1>
+          <div
+            class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 w-full gap-12 py-12"
+          >
+            <div
+              class="bg-[#0381CF] rounded-lg flex justify-center items-center flex-col group p-6 relative duration-500 max-h-[175px] hover:max-h-[650px] transition-all shadow-xl"
+            >
+              <div
+                class="relative group-hover:top-[-25%] top-0 bg-[#0381CF] rounded-lg group-hover:w-[90%] w-full flex justify-center items-center transition-all duration-500 group-hover:shadow-2xl group-hover:outline outline-8 outline-offset-0 outline-darkgrey"
+              >
+                <img src="./icons/c++.svg" alt="" class="size-32" />
+              </div>
+              <div
+                class="opacity-0 flex group-hover:opacity-100 justify-center items-center flex-col group-hover:px-3 duration-100 transition-all group-hover:duration-500 relative h-0 group-hover:h-auto top-0 group-hover:top-[-10%]"
+              >
+                <h1
+                  class="text-white text-center text-6xl opacity-0 group-hover:opacity-100 mb-6"
+                >
+                  C++
+                </h1>
+                <p
+                  class="text-white text-center opacity-0 group-hover:opacity-100"
+                >
+                  I have experience in programming C++ working with Arduino and
+                  creating complexs programmes which uses dictionaries and
+                  connecting with the Internet.
+                </p>
+              </div>
+            </div>
+            <div
+              class="bg-[#7B3399] rounded-lg flex justify-center items-center flex-col group p-6 relative transition-all duration-500 max-h-[175px] hover:max-h-[650px] shadow-xl"
+            >
+              <div
+                class="relative group-hover:top-[-25%] top-0 bg-[#7B3399] rounded-lg group-hover:w-[90%] w-full flex justify-center items-center transition-all duration-500 group-hover:shadow-2xl group-hover:outline outline-8 outline-offset-0 outline-darkgrey"
+              >
+                <img src="./icons/csharp.svg" alt="" class="size-32" />
+              </div>
+              <div
+                class="opacity-0 flex group-hover:opacity-100 justify-center items-center flex-col group-hover:px-3 duration-100 transition-all group-hover:duration-500 relative h-0 group-hover:h-auto top-0 group-hover:top-[-10%]"
+              >
+                <h1
+                  class="text-white text-center text-6xl opacity-0 group-hover:opacity-100 mb-6"
+                >
+                  C#
+                </h1>
+                <p
+                  class="text-white text-center opacity-0 group-hover:opacity-100"
+                >
+                  I have used C# in programming a few games like shooters,
+                  multiplayer, card games and multiple more. I also used it in
+                  programming few complex programmes such as a ATM Monitoring
+                  System.
+                </p>
+              </div>
+            </div>
+            <div
+              class="bg-[#FC4F13] rounded-lg flex justify-center items-center flex-col group p-6 relative transition-all duration-500 max-h-[175px] hover:max-h-[650px] shadow-xl"
+            >
+              <div
+                class="relative group-hover:top-[-25%] top-0 bg-[#FC4F13] rounded-lg group-hover:w-[90%] w-full flex justify-center items-center transition-all duration-500 group-hover:shadow-2xl group-hover:outline outline-8 outline-offset-0 outline-darkgrey"
+              >
+                <img src="./icons/html.svg" alt="" class="size-32" />
+              </div>
+              <div
+                class="opacity-0 flex group-hover:opacity-100 justify-center items-center flex-col group-hover:px-3 duration-100 transition-all group-hover:duration-500 relative h-0 group-hover:h-auto top-0 group-hover:top-[-10%]"
+              >
+                <h1
+                  class="text-white text-center text-6xl opacity-0 group-hover:opacity-100 mb-6"
+                >
+                  HTML
+                </h1>
+                <p
+                  class="text-white text-center opacity-0 group-hover:opacity-100"
+                >
+                  I have worked on a portfolio and a website to show a game as a
+                  school project using html.
+                </p>
+              </div>
+            </div>
+            <div
+              class="bg-[#2D53E5] rounded-lg flex justify-center items-center flex-col group p-6 relative transition-all duration-500 max-h-[175px] hover:max-h-[650px] shadow-xl"
+            >
+              <div
+                class="relative group-hover:top-[-25%] top-0 bg-[#2D53E5] rounded-lg group-hover:w-[90%] w-full flex justify-center items-center transition-all duration-500 group-hover:shadow-2xl group-hover:outline outline-8 outline-offset-0 outline-darkgrey"
+              >
+                <img src="./icons/css.svg" alt="" class="size-32" />
+              </div>
+              <div
+                class="opacity-0 flex group-hover:opacity-100 justify-center items-center flex-col group-hover:px-3 duration-100 transition-all group-hover:duration-500 relative h-0 group-hover:h-auto top-0 group-hover:top-[-10%]"
+              >
+                <h1
+                  class="text-white text-center text-6xl opacity-0 group-hover:opacity-100 mb-6"
+                >
+                  CSS
+                </h1>
+                <p
+                  class="text-white text-center opacity-0 group-hover:opacity-100"
+                >
+                  I have used CSS in a few projects and also have learnt how to
+                  use Bootstrap and Tailwind CSS to make my life easier using
+                  CSS.
+                </p>
+              </div>
+            </div>
+            <div
+              class="bg-[#59C7F8] rounded-lg flex justify-center items-center flex-col group p-6 relative transition-all duration-500 max-h-[175px] hover:max-h-[650px] shadow-xl"
+            >
+              <div
+                class="relative group-hover:top-[-25%] top-0 bg-[#59C7F8] rounded-lg group-hover:w-[90%] w-full flex justify-center items-center transition-all duration-500 group-hover:shadow-2xl group-hover:outline outline-8 outline-offset-0 outline-darkgrey"
+              >
+                <img src="./icons/flutter.svg" alt="" class="size-32" />
+              </div>
+              <div
+                class="opacity-0 flex group-hover:opacity-100 justify-center items-center flex-col group-hover:px-3 duration-100 transition-all group-hover:duration-500 relative h-0 group-hover:h-auto top-0 group-hover:top-[-10%]"
+              >
+                <h1
+                  class="text-white text-center text-6xl opacity-0 group-hover:opacity-100 mb-6"
+                >
+                  Flutter
+                </h1>
+                <p
+                  class="text-white text-center opacity-0 group-hover:opacity-100"
+                >
+                  I used Flutter to make a few apps such as a plant monitoring
+                  system, a fish tank monitoring system and a few more which was
+                  connected to a database and also the ESP32.
+                </p>
+              </div>
+            </div>
+            <div
+              class="bg-[#39719C] rounded-lg flex justify-center items-center flex-col group p-6 relative transition-all duration-500 max-h-[175px] hover:max-h-[650px] shadow-xl"
+            >
+              <div
+                class="relative group-hover:top-[-25%] top-0 bg-[#39719C] rounded-lg group-hover:w-[90%] w-full flex justify-center items-center transition-all duration-500 group-hover:shadow-2xl group-hover:outline outline-8 outline-offset-0 outline-darkgrey"
+              >
+                <img src="./icons/python.svg" alt="" class="size-32" />
+              </div>
+              <div
+                class="opacity-0 flex group-hover:opacity-100 justify-center items-center flex-col group-hover:px-3 duration-100 transition-all group-hover:duration-500 relative h-0 group-hover:h-auto top-0 group-hover:top-[-10%]"
+              >
+                <h1
+                  class="text-white text-center text-6xl opacity-0 group-hover:opacity-100 mb-6"
+                >
+                  Python
+                </h1>
+                <p
+                  class="text-white text-center opacity-0 group-hover:opacity-100"
+                >
+                  I have used python in a few projects where it was used in a
+                  project used to monitor some plants and also in a few data
+                  analytic projects.
+                </p>
+              </div>
+            </div>
+            <div
+              class="bg-[#F0DC55] rounded-lg flex justify-center items-center flex-col group p-6 relative transition-all duration-500 max-h-[175px] hover:max-h-[650px] shadow-xl"
+            >
+              <div
+                class="relative group-hover:top-[-25%] top-0 bg-[#F0DC55] rounded-lg group-hover:w-[90%] w-full flex justify-center items-center transition-all duration-500 group-hover:shadow-2xl group-hover:outline outline-8 outline-offset-0 outline-darkgrey"
+              >
+                <img src="./icons/javascript.svg" alt="" class="size-32" />
+              </div>
+              <div
+                class="opacity-0 flex group-hover:opacity-100 justify-center items-center flex-col group-hover:px-3 duration-100 transition-all group-hover:duration-500 relative h-0 group-hover:h-auto top-0 group-hover:top-[-10%]"
+              >
+                <h1
+                  class="text-white text-center text-6xl opacity-0 group-hover:opacity-100 mb-6"
+                >
+                  Javascript
+                </h1>
+                <p
+                  class="text-white text-center opacity-0 group-hover:opacity-100"
+                >
+                  I used javascript in a few website games such as a doodle jump
+                  remix which the art was made by me which was a project for
+                  school.
+                </p>
+              </div>
+            </div>
+            <div
+              class="bg-[#7B7FB5] rounded-lg flex justify-center items-center flex-col group p-6 relative transition-all duration-500 max-h-[175px] hover:max-h-[650px] shadow-xl"
+            >
+              <div
+                class="relative group-hover:top-[-25%] top-0 bg-[#7B7FB5] rounded-lg group-hover:w-[90%] w-full flex justify-center items-center transition-all duration-500 group-hover:shadow-2xl group-hover:outline outline-8 outline-offset-0 outline-darkgrey"
+              >
+                <img src="./icons/php.svg" alt="" class="size-32" />
+              </div>
+              <div
+                class="opacity-0 flex group-hover:opacity-100 justify-center items-center flex-col group-hover:px-3 duration-100 transition-all group-hover:duration-500 relative h-0 group-hover:h-auto top-0 group-hover:top-[-10%]"
+              >
+                <h1
+                  class="text-white text-center text-6xl opacity-0 group-hover:opacity-100 mb-6"
+                >
+                  PHP
+                </h1>
+                <p
+                  class="text-white text-center opacity-0 group-hover:opacity-100"
+                >
+                  I used php in a project where we had to make a sign in and
+                  register project where we had to connect the website to a
+                  database and a admin page where they can delete data.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="hobbies" class="bg-darkgrey">
+        <div class="h-screen relative">
+          <div class="size-full">
+            <div
+              class="activeImg absolute inset-0 overflow-hidden opacity-100 z-10 duration-500 after:content-[' '] after:size-full after:absolute after:left-0 after:bottom-0 after:bg-gradient-to-t after:from-black after:to-white/0"
+              id="item"
+            >
+              <img
+                src="images/golfer-1960998_1920.jpg"
+                alt=""
+                class="size-full object-cover"
+              />
+              <div
+                class="absolute left-[10%] top-[20%] w-[500px] max-w-[80%] z-[1]"
+              >
+                <p
+                  class="uppercase tracking-[10px] translate-y-[30px] blur-[20px] opacity-0 animate-showContent text-white"
+                >
+                  hobbies
+                </p>
+                <h2
+                  class="md:text-[100px] text-[60px] m-0 translate-y-[30px] blur-[20px] opacity-0 animate-showContent text-white"
+                >
+                  Golf
+                </h2>
+                <p
+                  class="translate-y-[30px] blur-[20px] opacity-0 animate-showContent text-white"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                  vero tempora minus error ut! Fuga minus, enim rerum distinctio
+                  molestias, totam nostrum impedit modi consequatur eligendi
+                  ipsum voluptatibus alias quos?
+                </p>
+              </div>
+            </div>
+            <div
+              class="absolute inset-0 overflow-hidden opacity-0 z-10 duration-500 after:content-[' '] after:size-full after:absolute after:left-0 after:bottom-0 after:bg-gradient-to-t after:from-black after:to-white/0"
+              id="item"
+            >
+              <img
+                src="images/basketball-2592790_1920.jpg"
+                alt=""
+                class="size-full object-cover"
+              />
+              <div
+                class="absolute left-[10%] top-[20%] w-[500px] max-w-[80%] z-[1]"
+              >
+                <p
+                  class="uppercase tracking-[10px] translate-y-[30px] blur-[20px] opacity-0 text-white animate-showContent"
+                >
+                  hobbies
+                </p>
+                <h2
+                  class="md:text-[100px] text-[60px] m-0 translate-y-[30px] blur-[20px] opacity-0 text-white animate-showContent"
+                >
+                  Basketball
+                </h2>
+                <p
+                  class="translate-y-[30px] blur-[20px] opacity-0 text-white animate-showContent"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                  vero tempora minus error ut! Fuga minus, enim rerum distinctio
+                  molestias, totam nostrum impedit modi consequatur eligendi
+                  ipsum voluptatibus alias quos?
+                </p>
+              </div>
+            </div>
+            <div
+              class="absolute inset-0 overflow-hidden opacity-0 z-10 duration-500 after:content-[' '] after:size-full after:absolute after:left-0 after:bottom-0 after:bg-gradient-to-t after:from-black after:to-white/0"
+              id="item"
+            >
+              <img
+                src="images/lego-1862109_1920.jpg"
+                alt=""
+                class="size-full object-cover"
+              />
+              <div
+                class="absolute left-[10%] top-[20%] w-[500px] max-w-[80%] z-[1]"
+              >
+                <p
+                  class="uppercase tracking-[10px] translate-y-[30px] blur-[20px] opacity-0 text-white animate-showContent"
+                >
+                  hobbies
+                </p>
+                <h2
+                  class="md:text-[100px] text-[60px] m-0 translate-y-[30px] blur-[20px] opacity-0 text-white animate-showContent"
+                >
+                  Lego
+                </h2>
+                <p
+                  class="translate-y-[30px] blur-[20px] opacity-0 text-white animate-showContent"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                  vero tempora minus error ut! Fuga minus, enim rerum distinctio
+                  molestias, totam nostrum impedit modi consequatur eligendi
+                  ipsum voluptatibus alias quos?
+                </p>
+              </div>
+            </div>
+            <div
+              class="absolute inset-0 overflow-hidden opacity-0 z-10 duration-500 after:content-[' '] after:size-full after:absolute after:left-0 after:bottom-0 after:bg-gradient-to-t after:from-black after:to-white/0"
+              id="item"
+            >
+              <img
+                src="images/sam-moghadam-khamseh-Z4Q9KHw9ofE-unsplash.jpg"
+                alt=""
+                class="size-full object-cover"
+              />
+              <div
+                class="absolute left-[10%] top-[20%] w-[500px] max-w-[80%] z-[1]"
+              >
+                <p
+                  class="uppercase tracking-[10px] translate-y-[30px] blur-[20px] opacity-0 text-white animate-showContent"
+                >
+                  hobbies
+                </p>
+                <h2
+                  class="md:text-[100px] text-[60px] m-0 translate-y-[30px] blur-[20px] opacity-0 text-white animate-showContent"
+                >
+                  Gym
+                </h2>
+                <p
+                  class="translate-y-[30px] blur-[20px] opacity-0 animate-showContent text-white"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                  vero tempora minus error ut! Fuga minus, enim rerum distinctio
+                  molestias, totam nostrum impedit modi consequatur eligendi
+                  ipsum voluptatibus alias quos?
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="absolute bottom-[50px] z-[11] flex gap-[10px] w-full h-[250px] px-[50px] box-border overflow-auto justify-start md:justify-center"
+          >
+            <div
+              class="activeThumbnail w-[150px] h-[220px] brightness-150 duration-500 flex-shrink-0"
+              id="thumbnail"
+            >
+              <img
+                src="images/golfer-1960998_1920.jpg"
+                alt=""
+                class="size-full object-cover rounded-[10px]"
+              />
+              <div class="absolute inset-[10px] text-center text-black text-xl">
+                Golf
+              </div>
+            </div>
+            <div
+              class="w-[150px] h-[220px] brightness-50 duration-500 flex-shrink-0"
+              id="thumbnail"
+            >
+              <img
+                src="images/basketball-2592790_1920.jpg"
+                alt=""
+                class="size-full object-cover rounded-[10px]"
+              />
+              <div class="absolute inset-[10px] text-center text-black text-xl">
+                Basketball
+              </div>
+            </div>
+            <div
+              class="w-[150px] h-[220px] brightness-50 duration-500 flex-shrink-0"
+              id="thumbnail"
+            >
+              <img
+                src="images/lego-1862109_1920.jpg"
+                alt=""
+                class="size-full object-cover rounded-[10px]"
+              />
+              <div class="absolute inset-[10px] text-center text-black text-xl">
+                Lego
+              </div>
+            </div>
+            <div
+              class="w-[150px] h-[220px] brightness-50 duration-500 flex-shrink-0"
+              id="thumbnail"
+            >
+              <img
+                src="images/sam-moghadam-khamseh-Z4Q9KHw9ofE-unsplash.jpg"
+                alt=""
+                class="size-full object-cover rounded-[10px]"
+              />
+              <div class="absolute inset-[10px] text-center text-black text-xl">
+                Gym
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute bottom-[0] left-[50%] -translate-x-[50%] -translate-y-[50%] z-20"
+          >
+            <button
+              id="prev"
+              class="bg-[#eee5] border-none w-[40px] h-[40px] rounded-md text-xl text-[#eee] duration-500 hover:bg-[#eee] hover:text-black"
+            >
+              <
+            </button>
+            <button
+              id="next"
+              class="bg-[#eee5] border-none w-[40px] h-[40px] rounded-md text-xl text-[#eee] duration-500 hover:bg-[#eee] hover:text-black"
+            >
+              >
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="p-12 bg-darkgrey">
+      <div class="flex justify-center items-center flex-col">
+        <p class="text-white">
+          © Copyright 2024
+          <span class="text-lightblue font-bold"> Charath Velan</span>
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      const button = document.querySelector("#menu-button");
+      const menu = document.querySelector("#menu");
+      const navbar = document.querySelector("#navbar");
+
+      button.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+      });
+
+      let sections = document.querySelectorAll("section,header");
+      let navLinks = document.querySelectorAll("#nav-link");
+
+      window.onscroll = () => {
+        if (window.scrollY < 200) {
+          navbar.classList.remove("backdrop-blur-sm");
+          navbar.classList.remove("bg-opacity-80");
+          navbar.classList.remove("bg-black");
+          navbar.classList.add("bg-opacity-0");
+        } else {
+          navbar.classList.add("backdrop-blur-sm");
+          navbar.classList.add("bg-opacity-80");
+          navbar.classList.add("bg-black");
+          navbar.classList.remove("bg-opacity-0");
+        }
+
+        sections.forEach((sec) => {
+          let top = window.scrollY;
+          let offset = sec.offsetTop - 80;
+          let height = sec.offsetHeight;
+          let id = sec.getAttribute("id");
+
+          if (top >= offset && top < offset + height) {
+            navLinks.forEach((links) => {
+              links.classList.remove("text-lightblue");
+              links.classList.add("font-extralight");
+              links.classList.remove("font-bold");
+              document
+                .querySelector("nav div a[href*=" + id + "]")
+                .classList.add("text-lightblue");
+              document
+                .querySelector("nav div a[href*=" + id + "]")
+                .classList.add("font-bold");
+              document
+                .querySelector("nav div a[href*=" + id + "]")
+                .classList.remove("font-extralight");
+            });
+          }
+        });
+      };
+    </script>
+
+    <script>
+      let items = document.querySelectorAll("#item");
+      let next = document.getElementById("next");
+      let prev = document.getElementById("prev");
+      let thumbnails = document.querySelectorAll("#thumbnail");
+
+      let countItem = items.length;
+      let itemActive = 0;
+
+      next.onclick = function () {
+        itemActive = itemActive + 1;
+        if (itemActive >= countItem) {
+          itemActive = 0;
+        }
+        showSlider();
+      };
+
+      prev.onclick = function () {
+        itemActive = itemActive - 1;
+        if (itemActive < 0) {
+          itemActive = countItem - 1;
+        }
+        showSlider();
+      };
+
+      function showSlider() {
+        let itemActiveOld = document.querySelector(".activeImg");
+        let thumbnailActiveOld = document.querySelector(".activeThumbnail");
+
+        itemActiveOld.classList.remove("activeImg");
+        itemActiveOld.classList.remove("opacity-100");
+        itemActiveOld.classList.add("opacity-0");
+        thumbnailActiveOld.classList.remove("activeThumbnail");
+        thumbnailActiveOld.classList.remove("brightness-150");
+        thumbnailActiveOld.classList.add("brightness-50");
+
+        items[itemActive].classList.add("activeImg");
+        items[itemActive].classList.add("opacity-100");
+        items[itemActive].classList.remove("opacity-0");
+        thumbnails[itemActive].classList.add("activeThumbnail");
+        thumbnails[itemActive].classList.add("brightness-150");
+        thumbnails[itemActive].classList.remove("brightness-50");
+      }
+
+      thumbnails.forEach((thumbnail, index) => {
+        thumbnail.addEventListener("click", () => {
+          itemActive = index;
+          showSlider();
+        });
+      });
+    </script>
+  </body>
+</html>
